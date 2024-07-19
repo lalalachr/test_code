@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>duigaoche.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1557</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LALALA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/duigaoche.png);</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
