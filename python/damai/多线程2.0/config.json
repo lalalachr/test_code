@@ -1,0 +1,12 @@
+{
+  "sess": 2,
+  "price": [4],
+  "ticket_num": 2,
+  "viewer_person": [1,2],
+  "damai_url": "https://www.damai.cn/",
+  "target_url": "https://m.damai.cn/shows/item.html?itemId=772411486400&spm=a2o71.search.list.ditem_0",
+  "driver_path": "E:\\python\\chromedriver.exe",
+  "chrome_path": "E:\\chrome\\Application\\chrome.exe",
+  "ports": [9222,9223],
+  "switch": "N"
+}

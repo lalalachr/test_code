@@ -1,0 +1,25 @@
+CLASS_NAMES: ['ech']
+
+DATA_CONFIG: 
+    _BASE_CONFIG_: /home/lala/openpcdet/OpenPCDet/tools/cfgs/dataset_configs/custom_dataset.yaml
+    POINT_CLOUD_RANGE: [-26, -39.68, -2.5, 43.12, 39.68, 6]
+    DATA_PROCESSOR:
+        - NAME: mask_points_and_boxes_outside_range
+          REMOVE_OUTSIDE_BOXES: True
+
+        - NAME: shuffle_points
+          SHUFFLE_ENABLED: {
+            'train': True,
+            'test': Tru
+          }
+
+        - NAME: transform_points_to_voxels
+          # VOXEL_SIZE: [0.16, 0.16, 4]
+          VOXEL_SIZE: [0.16, 0.16, 8.5]
+          MAX_POINTS_PER_VOXEL: 32
+          MAX_NUMBER_OF_VOXELS: {
+            'train': 16000,
+            'test': 40000
+          }
+
+
